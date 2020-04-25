@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size == 2 
     array.join (" and ") 
   else array.size > 2 
-    array [-1].prend
+    array [-1].preprend
     array.join (" , ")
   end
 end
